@@ -1,0 +1,29 @@
+{
+  "name": "示例文档模板",
+  "logo": "local",
+  "defaultOpenItem": "test",
+  "icon": "appstore",
+  "sider": {
+    "test": [
+      {
+        "key": 1,
+        "title": "ceshi1",
+        "page": "1.html",
+        "icon": "laptop"
+      },
+      {
+        "key": 3,
+        "title": "ceshi3",
+        "page": "1.html"
+      }
+    ],
+    "test2": [
+      {
+        "key": 2,
+        "title": "ceshi2",
+        "page": "2.html",
+        "icon": "read"
+      }
+    ]
+  }
+}

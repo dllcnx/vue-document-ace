@@ -113,7 +113,7 @@
                 }
             },
             openItem: function (page) {
-                this.$axios.get('/case/html/' + page).then((result) => {
+                this.$axios.get('./case/html/' + page).then((result) => {
                     this.content = result.data;
                     this.contentBak = result.data;
                     this.$refs.iframe.srcdoc = this.content;
@@ -132,7 +132,7 @@
         },
         mounted() {
             const self = this;
-            this.$axios.get('/case/sider.json').then((result) => {
+            this.$axios.get('./case/sider.json').then((result) => {
                 self.config = result.data;
                 if (self.config.icon) {
                     self.appstore = self.config.icon;

@@ -6,7 +6,7 @@
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
     "lint": "vue-cli-service lint",
-    "deploy": "npm run build && node ./deploy.js"
+    "deploy": "node ./deploy.js"
   },
   "dependencies": {
     "ant-design-vue": "^1.4.6",
@@ -22,7 +22,7 @@
     "babel-eslint": "^10.0.3",
     "eslint": "^5.16.0",
     "eslint-plugin-vue": "^5.0.0",
-    "gh-pages": "^2.1.1",
+    "gh-pages": "^3.2.2",
     "vue-template-compiler": "^2.6.10"
   },
   "eslintConfig": {

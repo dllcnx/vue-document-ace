@@ -1,7 +1,7 @@
 # 示例模板
 [demo]( https://dllcnx.github.io/DocumentAce/)
 
-基于ace编辑器实现的一个专门做示例文档的demo.
+基于vue2与ace编辑器实现的一个专门做示例文档的demo.
 ### 步骤
     1.将写好的demo(html)页面放入case->html文件夹中.
     2.修改case文件夹下面的sider.json文件进行结构配置.
